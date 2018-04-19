@@ -6,12 +6,6 @@ row_id | subject_id | hadm_id |      admittime      |      dischtime      | deat
 --------+------------+---------+---------------------+---------------------+-----------+----------------+----------------------+--------------------+-----------+----------+----------+----------------+--------------------+---------------------+---------------------+-----------+----------------------+----------------------
     471 |        366 |  134462 | 2164-11-18 20:27:00 | 2164-11-22 15:18:00 |           | EMERGENCY      | EMERGENCY ROOM ADMIT | HOME HEALTH CARE   | Medicare  | ENGL     | CATHOLIC | SINGLE         | HISPANIC OR LATINO | 2164-11-18 10:52:00 | 2164-11-18 21:31:00 | SEPSIS    |                    0 |                    1
 
-from CALLOUT
-
- row_id | subject_id | hadm_id | submit_wardid | submit_careunit | curr_wardid | curr_careunit | callout_wardid | callout_service | request_tele | request_resp | request_cdiff | request_mrsa | request_vre | callout_status | callout_outcome | discharge_wardid | acknowledge_status |     createtime      |     updatetime      | acknowledgetime |     outcometime     | firstreservationtime | currentreservationtime
---------+------------+---------+---------------+-----------------+-------------+---------------+----------------+-----------------+--------------+--------------+---------------+--------------+-------------+----------------+-----------------+------------------+--------------------+---------------------+---------------------+-----------------+---------------------+----------------------+------------------------
-    189 |        366 |  134462 |            23 |                 |          40 | MICU          |              1 | MED             |            0 |            0 |             0 |            0 |           0 | Inactive       | Discharged      |               40 | Unacknowledged     | 2164-11-20 16:21:00 | 2164-11-20 16:21:00 |                 | 2164-11-21 00:55:05 |                      |
-
 from ICUSTAYS
 
  row_id | subject_id | hadm_id | icustay_id | dbsource | first_careunit | last_careunit | first_wardid | last_wardid |       intime        |       outtime       |  los
